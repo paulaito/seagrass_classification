@@ -156,6 +156,9 @@ Now, I can finally extract the pixel values for each point location to obtain th
 The final ground truth (labeled) dataset contains the features and target variables. The "seagrass_class" column is the target variable and contains values of 1, 2 and 0, which represent intertidal-, subtidal seagrass and absence, respectively. The bands column (i.e. "blue", "green", "red", "nir", "ndvi" and "dem") are the features. The features and labels will be used for model training and testing.
 
 
+
+We get the pixel value for each band (last six columns) for each habitat class point data.
+
 ```python
 truth_data = pd.read_csv('./data/processed/datasets/ria_formosa_truth_data.csv')
 
@@ -164,8 +167,6 @@ truth_data = pd.read_csv('./data/processed/datasets/ria_formosa_truth_data.csv')
 
 
 
-
-We get the pixel value for each band (last six columns) for each habitat class point data.
 
 ### Spectral Signatures
 
