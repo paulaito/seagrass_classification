@@ -1,0 +1,8 @@
+data
+notebooks
+reports
+.ipynb_checkpoints
+.env
+.RData
+.Rhistory
+seagrass_classification_ria_formosa.ipynb
